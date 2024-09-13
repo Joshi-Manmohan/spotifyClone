@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li class="Brand"><img src="logo.png" alt="Spotify"></li>
+                <li> Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+        <main class="player">
+            <section class="playlist">
+                <h2>The Song I Love The Most</h2>
+                <ul id="songList">
+                    <li data-src="Te_amo.mp3">Te Amo</li>
+                    <li data-src="Soulmate.mp3">Soulmate</li>
+                    <li data-src="suniyaRata.mp3">SuniyaRata</li>
+                    <li data-src="Mil_ke_Baithange.mp3">Mil ke Baithange</li>
+                    <li data-src="Zaroor.mp3">Zaroor</li>
+                    <li data-src="Ishq.mp3">Ishq</li>
+                    <li data-src="Do_Gallan.mp3">Do Gallan</li>
+                    <li data-src="Main_Rahoon_Ya_Na_Rahoon.mp3">Main_Rahoon_Ya_Na_Rahoon</li>
+                    <li data-src="Chura_liya_hai_tumne_Jo.mp3">Chura_liya_hai_tumne_Jo</li>
+                </ul>
+            </section>
+            <section class="controls">
+                <audio id="audioPlayer" controls></audio>
+                <button id="playBtn" aria-label="Play">Play</button>
+                <button id="pauseBtn" aria-label="Pause">Pause</button>
+                <button id="stopBtn" aria-label="Stop">Stop</button>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
